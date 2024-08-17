@@ -1,0 +1,81 @@
+
+/* Selektor Elemen */
+p {
+    color: red;
+}
+
+/* Selektor Kelas */
+.container {
+    background-color: yellow;
+}
+
+/* Selektor ID */
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+
+/* Selektor Atribut */
+a:hover {
+    color: blue;
+}
+
+/* Box Model */
+#boxModel {
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+
+    
+}
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+/* Font Styles */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Background */
+p {
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* Styling Kotak */
+.advanced-style {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, blue, purple);
+    padding: 20px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    body {
+        background-color: #e0f7fa;
+    }
+}
